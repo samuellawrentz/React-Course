@@ -1,8 +1,8 @@
 import {Navbar, NavbarBrand} from 'reactstrap';
 import { Component } from 'react';
-import { Menu } from "./MenuComponent";
+import  Menu from "./MenuComponent";
 import { DISHES } from "../shared/dishes";
-import {  DishDetail } from "./DishDetailComponent";
+import DishDetail from "./DishDetailComponent";
 
 class Main extends Component {
   state = {
